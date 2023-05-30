@@ -16,5 +16,5 @@ jobs:
 workflows:
   check:
     jobs:
-      - Version_Python
       - Docker
+      - Version_Python
