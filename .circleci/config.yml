@@ -1,0 +1,12 @@
+Version: "2"
+Jobs:
+  Version_Python:
+    docker:
+      - image: cimg/python:3.11.3
+    steps:
+      - run: python --version
+
+workflows:
+  Test:
+    Jobs:
+      - Version_Python
