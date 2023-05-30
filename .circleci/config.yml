@@ -6,7 +6,7 @@ jobs:
     steps:
       - run: python --version
 
-workflows:
-  test:
-    jobs:
-      - Version_Python
+  workflows:
+    test:
+      jobs:
+        - Version_Python
