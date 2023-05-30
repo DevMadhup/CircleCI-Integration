@@ -8,5 +8,5 @@ Jobs:
 
 workflows:
   Test:
-    Jobs:
+    jobs:
       - Version_Python
