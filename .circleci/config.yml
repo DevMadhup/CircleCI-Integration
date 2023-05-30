@@ -1,5 +1,5 @@
 Version: "2"
-Jobs:
+jobs:
   Version_Python:
     docker:
       - image: cimg/python:3.11.3
