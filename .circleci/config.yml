@@ -7,6 +7,6 @@ jobs:
       - checkout
       - run: python --version
 workflows:
-    test:
+    ver:
       jobs:
         - Version_Python
